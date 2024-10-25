@@ -208,5 +208,5 @@ void pause(const string& message) {
 void cls() {
     cout << "\033[2J\033[H";            //Standard escape code
     cout.flush();                       //Clears the output stream
-}
+} //End escape function
 
